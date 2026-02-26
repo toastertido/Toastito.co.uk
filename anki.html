@@ -5,16 +5,22 @@
 <body style="background-color:#757E8A; color:white; font-family:Geist; padding-top: 50px;">
 <center>
 <div class="container">
-<img width="200" src="lil-toast.png">
+<a href="index.html"><img width="200" src="lil-toast.png"></a>
 <h1 id="animated-title" style="font-size:90pt;"></h1>
 </div>
-<h3 style="font-size:20pt; font-weight: 600;">Amateur graphic designer.</h3>
-<!-- From Uiverse.io by KhelVers --> 
-<span><a href="https://toastito.gumroad.com"><button class="button">Gumroad</button></a>&nbsp&nbsp&nbsp<a href="http://www.fiverr.com/s/5r2RWxk"><button class="button2">Fiverr</button></a></span>
-<h2>Previous Work</h2>
-<a href="anki.html"><button class="button3">Anki (2026)</button></a>
-</center>
-<script src="script.js"></script>
+<p>In early 2026, I did graphics work for Anki. This included packaging design for one of their flagship products (specifically, the Anki Cozmo 2.0), and marketing images for their Amazon listings.
+<div class="row">
+  <div class="column">
+    <img width="200" src="startguide.png">
+    <img width="200" src="aplus.png">
+    <img width="200" src="vecmo.png">
+    <img width="200" src="limited.png">
+    <img width="200" src="phone.png">
+    <img width="200" src="lpao.png">
+  </div>
+</div>
+
+<script src="script2.js"></script>
 </body>
 
 
@@ -46,6 +52,22 @@
   display: flex;
   align-items: center;
   justify-content: center
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+  flex: 50%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
 }
 
 #animated-title {
