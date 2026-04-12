@@ -1,14 +1,17 @@
 <head>
 <title>Toastito</title>
+
+<meta name="description" content="Amateur Graphic designer">
+
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://yourwebsite.com/">
+<meta property="og:url" content="https://toastito.co.uk/">
 <meta property="og:title" content="Toastito">
 <meta property="og:description" content="Amateur Graphic designer">
 <meta property="og:image" content="lil-toast.png">
 
 <meta property="twitter:card" content="summary_large_image">
 <meta property="twitter:url" content="https://toastito.co.uk/">
-<meta property="twitter:title" content="Your Website Title">
+<meta property="twitter:title" content="Toastito">
 <meta property="twitter:description" content="Amateur Graphic designer">
 <meta property="twitter:image" content="lil-toast.png">
 </head>
@@ -16,18 +19,21 @@
 <body style="background-color:#757E8A; color:white; font-family:Geist; padding-top: 50px;">
 <center>
 <div class="container">
-<img width="200" src="lil-toast.png">
+<a href="index.html"><img width="200" src="lil-toast.png"></a>
 <h1 id="animated-title" style="font-size:90pt;"></h1>
 </div>
-<h3 style="font-size:20pt; font-weight: 600;">Amateur graphic designer.</h3>
-<!-- From Uiverse.io by KhelVers --> 
-<span><a href="https://toastito.gumroad.com"><button class="button">Gumroad</button></a></span>
-<!--&nbsp&nbsp&nbsp <a href="http://www.fiverr.com/s/5r2RWxk"><button class="button2">Fiverr</button></a></span>-->
-<h2>Previous Work</h2>
-<button><a href="anki.html"><button class="button3">Anki (2026)</button></a>
-<button><a href="MPI.html"><button class="button3">MyPayIndia (2026)</button></a>
-</center>
-<script src="script.js"></script>
+<p>In mid-late 2026, I did graphics work for MyPayIndia. This was mostly logo design and promotional material.<div class="row">
+  <div class="column">
+    <img width="200" src="kiosk.png">
+    <img width="200" src="mci.png">
+    <img width="200" src="mpic.png">
+    <img width="200" src="mpie.png">
+    <img width="200" src="mydevindia.png">
+    <img width="200" src="share.png">
+  </div>
+</div>
+
+<script src="script2.js"></script>
 </body>
 
 
@@ -59,6 +65,22 @@
   display: flex;
   align-items: center;
   justify-content: center
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+  flex: 50%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
 }
 
 #animated-title {
@@ -127,4 +149,5 @@
   border: 6px solid #69717d;
   box-shadow: 0px 0px;
 }
+
 </style>
