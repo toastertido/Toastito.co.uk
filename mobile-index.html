@@ -1,47 +1,38 @@
 <head>
 <title>Toastito</title>
-
-<meta name="description" content="Amateur Graphic designer">
-
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://toastito.co.uk/">
+<meta property="og:url" content="https://yourwebsite.com/">
 <meta property="og:title" content="Toastito">
 <meta property="og:description" content="Amateur Graphic designer">
 <meta property="og:image" content="lil-toast.png">
-
-<script>
-    // Check if the browser user-agent matches common mobile devices
-    if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
-      window.location.href = "mobile-mpi.html";
-    }
-</script>
-
 <meta property="twitter:card" content="summary_large_image">
 <meta property="twitter:url" content="https://toastito.co.uk/">
-<meta property="twitter:title" content="Toastito">
+<meta property="twitter:title" content="Your Website Title">
 <meta property="twitter:description" content="Amateur Graphic designer">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta property="twitter:image" content="lil-toast.png">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body style="background-color:#717C8B; color:white; font-family:Geist; padding-top: 50px;">
 <center>
 <div class="container">
-<a href="index.html"><img width="200" src="lil-toast.png"></a>
-<h1 id="animated-title" style="font-size:90pt;"></h1>
+<img width="200" src="lil-toast.png" class="shrink" style="padding-right: 20px;">
 </div>
-<p>Between 2026-Now, I have done graphics work for MyPayIndia. This is mostly logo design and promotional material.<div class="row">
-  <div class="column">
-    <img width="200" src="kiosk.png">
-    <img width="200" src="mci.png">
-    <img width="200" src="mpic.png">
-    <img width="200" src="mpie.png">
-    <img width="200" src="mydevindia.png">
-    <img width="200" src="share.png">
-  </div>
-</div>
-
-<script src="script3.js"></script>
+<h1 id="animated-title" class="shrink" style="font-size:90pt;"></h1>
+<h3 style="font-size:20pt; font-weight: 600;">Amateur graphic designer.</h3>
+<a href="https://x.com/T0ast1t0"><img height=50px src="twitter.png"></a>
+<br>
+<br>
+<!-- From Uiverse.io by KhelVers --> 
+<span><a href="https://toastito.gumroad.com"><button class="button">Gumroad</button></a></span>
+<!--&nbsp&nbsp&nbsp <a href="http://www.fiverr.com/s/5r2RWxk"><button class="button2">Fiverr</button></a></span>-->
+<h2>Previous Work</h2>
+<a href="anki.html"><button class="button3">Anki (2026)</button></a>
+<br>
+<br>
+<a href="MPI.html"><button class="button4">MyPayIndia (2026)</button></a>
+</center>
+<script src="mobile-script.js"></script>
 </body>
 
 
@@ -74,22 +65,6 @@
   align-items: center;
   justify-content: center
 }
-.row {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0 4px;
-}
-
-/* Create two equal columns that sits next to each other */
-.column {
-  flex: 50%;
-  padding: 0 4px;
-}
-
-.column img {
-  margin-top: 8px;
-  vertical-align: middle;
-}
 
 #animated-title {
   display: inline-block;       
@@ -114,6 +89,24 @@
   border-radius: 50em;
   border: 6px solid #FF90E7;
   box-shadow: 0px 8px #A45C94;
+}
+.button4 {
+  cursor: pointer;
+  font-size: large;
+  font-family: inherit;
+  font-weight: bold;
+  color: #000000;
+  background-color: #f8f8fd;
+  padding: 0.8em 2.2em;
+  border-radius: 50em;
+  border: 6px solid #f57842;
+  box-shadow: 0px 8px #ab5935;
+}
+.button4:active {
+  position: relative;
+  top: 8px;
+  border: 6px solid #69717d;
+  box-shadow: 0px 0px;
 }
 .button:active {
   position: relative;
@@ -157,5 +150,4 @@
   border: 6px solid #69717d;
   box-shadow: 0px 0px;
 }
-
 </style>

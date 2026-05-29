@@ -6,6 +6,13 @@
 <meta property="og:description" content="Amateur Graphic designer">
 <meta property="og:image" content="lil-toast.png">
 
+<script>
+    // Check if the browser user-agent matches common mobile devices
+    if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+      window.location.href = "mobile-index.html";
+    }
+</script>
+
 <meta property="twitter:card" content="summary_large_image">
 <meta property="twitter:url" content="https://toastito.co.uk/">
 <meta property="twitter:title" content="Your Website Title">
@@ -17,8 +24,8 @@
 <body style="background-color:#717C8B; color:white; font-family:Geist; padding-top: 50px;">
 <center>
 <div class="container">
-<img width="200" src="lil-toast.png" style="padding-right: 20px;">
-<h1 id="animated-title" style="font-size:90pt;"></h1>
+<img width="200" src="lil-toast.png" class="shrink" style="padding-right: 20px;">
+<h1 id="animated-title" class="shrink" style="font-size:90pt;"></h1>
 </div>
 <h3 style="font-size:20pt; font-weight: 600;">Amateur graphic designer.</h3>
 <a href="https://x.com/T0ast1t0"><img height=50px src="twitter.png"></a>
@@ -148,12 +155,5 @@
   top: 8px;
   border: 6px solid #69717d;
   box-shadow: 0px 0px;
-}
-body {
-  width: 100%;
-  min-height: 100vh;
-  margin: 0;        
-  padding: 15px;     
-  box-sizing: border-box; 
 }
 </style>
